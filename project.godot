@@ -16,7 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Palette Shininess"
-run/main_scene="res://example/Scene.tscn"
+run/main_scene="res://example/Charmander.tscn"
 config/icon="res://icon.png"
 
 [display]

@@ -1,0 +1,26 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://sprites/palette.shader" type="Shader" id=1]
+[ext_resource path="res://sprites/004/base_mc.png" type="Texture" id=2]
+[ext_resource path="res://sprites/004/normal_palette.png" type="Texture" id=3]
+[ext_resource path="res://sprites/004/shiny_palette.png" type="Texture" id=4]
+[ext_resource path="res://example/Shininess.gd" type="Script" id=5]
+[ext_resource path="res://example/ShininessBtn.tscn" type="PackedScene" id=6]
+
+[sub_resource type="ShaderMaterial" id=1]
+shader = ExtResource( 1 )
+shader_param/palette = ExtResource( 3 )
+
+[node name="Node" type="Node"]
+
+[node name="Sprite" type="Sprite" parent="."]
+material = SubResource( 1 )
+position = Vector2( 100.128, 48.8482 )
+texture = ExtResource( 2 )
+script = ExtResource( 5 )
+normal = ExtResource( 3 )
+shiny = ExtResource( 4 )
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="MarginContainer" parent="CanvasLayer" instance=ExtResource( 6 )]
