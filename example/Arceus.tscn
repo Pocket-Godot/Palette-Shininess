@@ -1,23 +1,188 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=61 format=2]
 
 [ext_resource path="res://sprites/493/mask.png" type="Texture" id=1]
 [ext_resource path="res://example/type_buttongroup.tres" type="ButtonGroup" id=2]
 [ext_resource path="res://example/ShininessBtn.tscn" type="PackedScene" id=3]
+
+[sub_resource type="StyleBoxEmpty" id=58]
 
 [sub_resource type="DynamicFont" id=1]
 size = 8
 
 [sub_resource type="Theme" id=2]
 default_font = SubResource( 1 )
-
-[sub_resource type="StyleBoxFlat" id=4]
-bg_color = Color( 0.72549, 0.709804, 0.639216, 1 )
+Button/colors/font_color = Color( 0.88, 0.88, 0.88, 1 )
+Button/colors/font_color_disabled = Color( 0.9, 0.9, 0.9, 0.2 )
+Button/colors/font_color_hover = Color( 0.94, 0.94, 0.94, 1 )
+Button/colors/font_color_pressed = Color( 1, 1, 1, 1 )
+Button/constants/hseparation = 2
+Button/fonts/font = null
+Button/styles/disabled = null
+Button/styles/focus = SubResource( 58 )
+Button/styles/hover = null
+Button/styles/normal = null
+Button/styles/pressed = null
 
 [sub_resource type="StyleBoxFlat" id=3]
-bg_color = Color( 0.45098, 0.411765, 0.270588, 1 )
+bg_color = Color( 0.72549, 0.709804, 0.639216, 1 )
 
-[sub_resource type="StyleBoxFlat" id=5]
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0.211765, 0.192157, 0.129412, 1 )
+
+[sub_resource type="StyleBoxFlat" id=6]
 bg_color = Color( 0.568627, 0.533333, 0.4, 1 )
+
+[sub_resource type="StyleBoxFlat" id=7]
+bg_color = Color( 0.905882, 0.552941, 0.482353, 1 )
+
+[sub_resource type="StyleBoxFlat" id=8]
+bg_color = Color( 0.25098, 0.0392157, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=9]
+bg_color = Color( 0.501961, 0.0823529, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=10]
+bg_color = Color( 0.839216, 0.741176, 1, 1 )
+
+[sub_resource type="StyleBoxFlat" id=57]
+bg_color = Color( 0.215686, 0.160784, 0.301961, 1 )
+
+[sub_resource type="StyleBoxFlat" id=11]
+bg_color = Color( 0.654902, 0.486275, 0.917647, 1 )
+
+[sub_resource type="StyleBoxFlat" id=12]
+bg_color = Color( 0.666667, 0.372549, 0.74902, 1 )
+
+[sub_resource type="StyleBoxFlat" id=13]
+bg_color = Color( 0.168627, 0, 0.219608, 1 )
+
+[sub_resource type="StyleBoxFlat" id=14]
+bg_color = Color( 0.45098, 0, 0.576471, 1 )
+
+[sub_resource type="StyleBoxFlat" id=15]
+bg_color = Color( 1, 0.921569, 0.733333, 1 )
+
+[sub_resource type="StyleBoxFlat" id=16]
+bg_color = Color( 0.235294, 0.196078, 0.105882, 1 )
+
+[sub_resource type="StyleBoxFlat" id=17]
+bg_color = Color( 0.890196, 0.752941, 0.427451, 1 )
+
+[sub_resource type="StyleBoxFlat" id=18]
+bg_color = Color( 0.811765, 0.65098, 0.376471, 1 )
+
+[sub_resource type="StyleBoxFlat" id=19]
+bg_color = Color( 0.192157, 0.137255, 0.0470588, 1 )
+
+[sub_resource type="StyleBoxFlat" id=20]
+bg_color = Color( 0.517647, 0.380392, 0.145098, 1 )
+
+[sub_resource type="StyleBoxFlat" id=21]
+bg_color = Color( 0.784314, 0.835294, 0.572549, 1 )
+
+[sub_resource type="StyleBoxFlat" id=22]
+bg_color = Color( 0.184314, 0.231373, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=23]
+bg_color = Color( 0.658824, 0.815686, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=24]
+bg_color = Color( 0.419608, 0.337255, 0.584314, 1 )
+
+[sub_resource type="StyleBoxFlat" id=25]
+bg_color = Color( 0.0901961, 0.054902, 0.156863, 1 )
+
+[sub_resource type="StyleBoxFlat" id=26]
+bg_color = Color( 0.203922, 0.12549, 0.360784, 1 )
+
+[sub_resource type="StyleBoxFlat" id=27]
+bg_color = Color( 0.894118, 0.894118, 0.894118, 1 )
+
+[sub_resource type="StyleBoxFlat" id=28]
+bg_color = Color( 0.160784, 0.160784, 0.160784, 1 )
+
+[sub_resource type="StyleBoxFlat" id=29]
+
+[sub_resource type="StyleBoxFlat" id=30]
+bg_color = Color( 1, 0.631373, 0.517647, 1 )
+
+[sub_resource type="StyleBoxFlat" id=31]
+bg_color = Color( 0.290196, 0.0666667, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=32]
+bg_color = Color( 1, 0.235294, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=33]
+bg_color = Color( 0.454902, 0.686275, 0.839216, 1 )
+
+[sub_resource type="StyleBoxFlat" id=34]
+bg_color = Color( 0, 0.184314, 0.309804, 1 )
+
+[sub_resource type="StyleBoxFlat" id=35]
+bg_color = Color( 0, 0.501961, 0.835294, 1 )
+
+[sub_resource type="StyleBoxFlat" id=36]
+bg_color = Color( 0.513726, 0.733333, 0.470588, 1 )
+
+[sub_resource type="StyleBoxFlat" id=37]
+bg_color = Color( 0.0470588, 0.266667, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=38]
+bg_color = Color( 0.12549, 0.729412, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=39]
+bg_color = Color( 0.901961, 0.839216, 0.596078, 1 )
+
+[sub_resource type="StyleBoxFlat" id=40]
+bg_color = Color( 0.396078, 0.313726, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=41]
+bg_color = Color( 0.909804, 0.72549, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=42]
+bg_color = Color( 0.764706, 0.368627, 0.721569, 1 )
+
+[sub_resource type="StyleBoxFlat" id=43]
+bg_color = Color( 0.286275, 0, 0.254902, 1 )
+
+[sub_resource type="StyleBoxFlat" id=44]
+bg_color = Color( 0.768627, 0, 0.686275, 1 )
+
+[sub_resource type="StyleBoxFlat" id=45]
+bg_color = Color( 0.592157, 0.835294, 0.909804, 1 )
+
+[sub_resource type="StyleBoxFlat" id=46]
+bg_color = Color( 0.121569, 0.278431, 0.32549, 1 )
+
+[sub_resource type="StyleBoxFlat" id=47]
+bg_color = Color( 0.4, 0.8, 0.921569, 1 )
+
+[sub_resource type="StyleBoxFlat" id=48]
+bg_color = Color( 0.607843, 0.462745, 0.8, 1 )
+
+[sub_resource type="StyleBoxFlat" id=49]
+bg_color = Color( 0.133333, 0, 0.309804, 1 )
+
+[sub_resource type="StyleBoxFlat" id=50]
+bg_color = Color( 0.345098, 0, 0.8, 1 )
+
+[sub_resource type="StyleBoxFlat" id=51]
+bg_color = Color( 0.470588, 0.470588, 0.470588, 1 )
+
+[sub_resource type="StyleBoxFlat" id=52]
+bg_color = Color( 0.0823529, 0.0823529, 0.0823529, 1 )
+
+[sub_resource type="StyleBoxFlat" id=53]
+bg_color = Color( 0.211765, 0.211765, 0.211765, 1 )
+
+[sub_resource type="StyleBoxFlat" id=54]
+bg_color = Color( 1, 0.780392, 0.858824, 1 )
+
+[sub_resource type="StyleBoxFlat" id=55]
+bg_color = Color( 0.376471, 0.235294, 0.286275, 1 )
+
+[sub_resource type="StyleBoxFlat" id=56]
+bg_color = Color( 1, 0.635294, 0.764706, 1 )
 
 [node name="Node" type="Node"]
 
@@ -75,10 +240,11 @@ margin_right = 28.0
 margin_bottom = 15.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-custom_styles/hover = SubResource( 4 )
-custom_styles/pressed = SubResource( 3 )
-custom_styles/normal = SubResource( 5 )
+custom_styles/hover = SubResource( 3 )
+custom_styles/pressed = SubResource( 4 )
+custom_styles/normal = SubResource( 6 )
 toggle_mode = true
+pressed = true
 group = ExtResource( 2 )
 
 [node name="Fighting" type="Button" parent="CanvasLayer/HSplitContainer/MarginContainer/GridContainer"]
@@ -87,6 +253,9 @@ margin_right = 64.0
 margin_bottom = 15.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+custom_styles/hover = SubResource( 7 )
+custom_styles/pressed = SubResource( 8 )
+custom_styles/normal = SubResource( 9 )
 toggle_mode = true
 group = ExtResource( 2 )
 
@@ -96,6 +265,9 @@ margin_right = 100.0
 margin_bottom = 15.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+custom_styles/hover = SubResource( 10 )
+custom_styles/pressed = SubResource( 57 )
+custom_styles/normal = SubResource( 11 )
 toggle_mode = true
 group = ExtResource( 2 )
 
@@ -105,6 +277,9 @@ margin_right = 28.0
 margin_bottom = 38.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+custom_styles/hover = SubResource( 12 )
+custom_styles/pressed = SubResource( 13 )
+custom_styles/normal = SubResource( 14 )
 toggle_mode = true
 group = ExtResource( 2 )
 
@@ -115,6 +290,9 @@ margin_right = 64.0
 margin_bottom = 38.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+custom_styles/hover = SubResource( 15 )
+custom_styles/pressed = SubResource( 16 )
+custom_styles/normal = SubResource( 17 )
 toggle_mode = true
 group = ExtResource( 2 )
 
@@ -125,6 +303,9 @@ margin_right = 100.0
 margin_bottom = 38.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+custom_styles/hover = SubResource( 18 )
+custom_styles/pressed = SubResource( 19 )
+custom_styles/normal = SubResource( 20 )
 toggle_mode = true
 group = ExtResource( 2 )
 
@@ -134,6 +315,9 @@ margin_right = 28.0
 margin_bottom = 61.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+custom_styles/hover = SubResource( 21 )
+custom_styles/pressed = SubResource( 22 )
+custom_styles/normal = SubResource( 23 )
 toggle_mode = true
 group = ExtResource( 2 )
 
@@ -144,6 +328,9 @@ margin_right = 64.0
 margin_bottom = 61.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+custom_styles/hover = SubResource( 24 )
+custom_styles/pressed = SubResource( 25 )
+custom_styles/normal = SubResource( 26 )
 toggle_mode = true
 group = ExtResource( 2 )
 
@@ -154,6 +341,9 @@ margin_right = 100.0
 margin_bottom = 61.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+custom_styles/hover = SubResource( 27 )
+custom_styles/pressed = SubResource( 28 )
+custom_styles/normal = SubResource( 29 )
 toggle_mode = true
 group = ExtResource( 2 )
 
@@ -163,6 +353,9 @@ margin_right = 28.0
 margin_bottom = 84.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+custom_styles/hover = SubResource( 30 )
+custom_styles/pressed = SubResource( 31 )
+custom_styles/normal = SubResource( 32 )
 toggle_mode = true
 group = ExtResource( 2 )
 
@@ -173,6 +366,9 @@ margin_right = 64.0
 margin_bottom = 84.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+custom_styles/hover = SubResource( 33 )
+custom_styles/pressed = SubResource( 34 )
+custom_styles/normal = SubResource( 35 )
 toggle_mode = true
 group = ExtResource( 2 )
 
@@ -183,6 +379,9 @@ margin_right = 100.0
 margin_bottom = 84.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+custom_styles/hover = SubResource( 36 )
+custom_styles/pressed = SubResource( 37 )
+custom_styles/normal = SubResource( 38 )
 toggle_mode = true
 group = ExtResource( 2 )
 
@@ -192,6 +391,9 @@ margin_right = 28.0
 margin_bottom = 107.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+custom_styles/hover = SubResource( 39 )
+custom_styles/pressed = SubResource( 40 )
+custom_styles/normal = SubResource( 41 )
 toggle_mode = true
 group = ExtResource( 2 )
 
@@ -202,6 +404,9 @@ margin_right = 64.0
 margin_bottom = 107.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+custom_styles/hover = SubResource( 42 )
+custom_styles/pressed = SubResource( 43 )
+custom_styles/normal = SubResource( 44 )
 toggle_mode = true
 group = ExtResource( 2 )
 
@@ -212,6 +417,9 @@ margin_right = 100.0
 margin_bottom = 107.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+custom_styles/hover = SubResource( 45 )
+custom_styles/pressed = SubResource( 46 )
+custom_styles/normal = SubResource( 47 )
 toggle_mode = true
 group = ExtResource( 2 )
 
@@ -221,6 +429,9 @@ margin_right = 28.0
 margin_bottom = 130.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+custom_styles/hover = SubResource( 48 )
+custom_styles/pressed = SubResource( 49 )
+custom_styles/normal = SubResource( 50 )
 toggle_mode = true
 group = ExtResource( 2 )
 
@@ -231,6 +442,9 @@ margin_right = 64.0
 margin_bottom = 130.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+custom_styles/hover = SubResource( 51 )
+custom_styles/pressed = SubResource( 52 )
+custom_styles/normal = SubResource( 53 )
 toggle_mode = true
 group = ExtResource( 2 )
 
@@ -241,5 +455,8 @@ margin_right = 100.0
 margin_bottom = 130.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+custom_styles/hover = SubResource( 54 )
+custom_styles/pressed = SubResource( 55 )
+custom_styles/normal = SubResource( 56 )
 toggle_mode = true
 group = ExtResource( 2 )
