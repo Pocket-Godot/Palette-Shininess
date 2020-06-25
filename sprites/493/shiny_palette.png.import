@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/mask.png-52b2533dd49dc10714d8ab5617cb6304.stex"
+path="res://.import/shiny_palette.png-465313494cce1af6aae08b57aa336264.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/493/mask.png"
-dest_files=[ "res://.import/mask.png-52b2533dd49dc10714d8ab5617cb6304.stex" ]
+source_file="res://sprites/493/shiny_palette.png"
+dest_files=[ "res://.import/shiny_palette.png-465313494cce1af6aae08b57aa336264.stex" ]
 
 [params]
 
