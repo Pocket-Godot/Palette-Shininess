@@ -230,3 +230,4 @@ export_presets.cfg
 .mono/
 data_*/
 *.kra
+/sprites/493/ref/

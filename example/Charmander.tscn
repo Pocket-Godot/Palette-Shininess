@@ -9,6 +9,7 @@
 
 [sub_resource type="ShaderMaterial" id=1]
 shader = ExtResource( 1 )
+shader_param/palette = ExtResource( 3 )
 
 [node name="Node" type="Node"]
 
@@ -23,3 +24,6 @@ shiny = ExtResource( 4 )
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="MarginContainer" parent="CanvasLayer" instance=ExtResource( 6 )]
+[connection signal="toggled" from="CanvasLayer/MarginContainer/VBoxContainer/CheckButton" to="Sprite" method="_on_CheckButton_toggled"]
+
+[editable path="CanvasLayer/MarginContainer"]

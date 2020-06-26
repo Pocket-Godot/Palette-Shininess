@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/normal.png-6e5b4332e376e238a48e8d468044710a.stex"
+path="res://.import/psychic_type.png-1e0d2cf606b670495392d2a7623b19b9.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/493/normal.png"
-dest_files=[ "res://.import/normal.png-6e5b4332e376e238a48e8d468044710a.stex" ]
+source_file="res://sprites/493/psychic_type.png"
+dest_files=[ "res://.import/psychic_type.png-1e0d2cf606b670495392d2a7623b19b9.stex" ]
 
 [params]
 

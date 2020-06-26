@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/dragon.png-28907b1d003fbd5a0684107d0408f032.stex"
+path="res://.import/ice_type.png-a9842ad0e1e6b4f74e6e97d1e8f905bb.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/493/dragon.png"
-dest_files=[ "res://.import/dragon.png-28907b1d003fbd5a0684107d0408f032.stex" ]
+source_file="res://sprites/493/ice_type.png"
+dest_files=[ "res://.import/ice_type.png-a9842ad0e1e6b4f74e6e97d1e8f905bb.stex" ]
 
 [params]
 

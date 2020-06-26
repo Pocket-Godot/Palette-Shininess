@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/bug.png-27447dc46bf4718aff251ea24e5e1394.stex"
+path="res://.import/fire_type.png-d2db12a71e81ec0317939fcce0ea3cf0.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/493/bug.png"
-dest_files=[ "res://.import/bug.png-27447dc46bf4718aff251ea24e5e1394.stex" ]
+source_file="res://sprites/493/fire_type.png"
+dest_files=[ "res://.import/fire_type.png-d2db12a71e81ec0317939fcce0ea3cf0.stex" ]
 
 [params]
 
