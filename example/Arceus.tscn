@@ -1,4 +1,4 @@
-[gd_scene load_steps=67 format=2]
+[gd_scene load_steps=84 format=2]
 
 [ext_resource path="res://sprites/493/mask.png" type="Texture" id=1]
 [ext_resource path="res://example/type_buttongroup.tres" type="ButtonGroup" id=2]
@@ -8,6 +8,23 @@
 [ext_resource path="res://sprites/493/normal_palette.png" type="Texture" id=6]
 [ext_resource path="res://sprites/493/normal_type.png" type="Texture" id=7]
 [ext_resource path="res://sprites/palette_mix.shader" type="Shader" id=8]
+[ext_resource path="res://sprites/493/fairy_type.png" type="Texture" id=9]
+[ext_resource path="res://sprites/493/dark_type.png" type="Texture" id=10]
+[ext_resource path="res://sprites/493/fighting_type.png" type="Texture" id=11]
+[ext_resource path="res://sprites/493/dragon_type.png" type="Texture" id=12]
+[ext_resource path="res://sprites/493/electric_type.png" type="Texture" id=13]
+[ext_resource path="res://sprites/493/bug_type.png" type="Texture" id=14]
+[ext_resource path="res://sprites/493/water_type.png" type="Texture" id=15]
+[ext_resource path="res://sprites/493/fire_type.png" type="Texture" id=16]
+[ext_resource path="res://sprites/493/ghost_type.png" type="Texture" id=17]
+[ext_resource path="res://sprites/493/grass_type.png" type="Texture" id=18]
+[ext_resource path="res://sprites/493/ground_type.png" type="Texture" id=19]
+[ext_resource path="res://sprites/493/steel_type.png" type="Texture" id=20]
+[ext_resource path="res://sprites/493/poison_type.png" type="Texture" id=21]
+[ext_resource path="res://sprites/493/psychic_type.png" type="Texture" id=22]
+[ext_resource path="res://sprites/493/ice_type.png" type="Texture" id=23]
+[ext_resource path="res://sprites/493/rock_type.png" type="Texture" id=24]
+[ext_resource path="res://sprites/493/flying_type.png" type="Texture" id=25]
 
 [sub_resource type="ShaderMaterial" id=1]
 shader = ExtResource( 8 )
@@ -205,6 +222,23 @@ script = ExtResource( 4 )
 normal = ExtResource( 6 )
 shiny = ExtResource( 5 )
 type_normal = ExtResource( 7 )
+type_fighting = ExtResource( 11 )
+type_flying = ExtResource( 25 )
+type_poison = ExtResource( 21 )
+type_ground = ExtResource( 19 )
+type_rock = ExtResource( 24 )
+type_bug = ExtResource( 14 )
+type_ghost = ExtResource( 17 )
+type_steel = ExtResource( 20 )
+type_fire = ExtResource( 16 )
+type_water = ExtResource( 15 )
+type_grass = ExtResource( 18 )
+type_electric = ExtResource( 13 )
+type_ice = ExtResource( 23 )
+type_psychic = ExtResource( 22 )
+type_dragon = ExtResource( 12 )
+type_dark = ExtResource( 10 )
+type_fairy = ExtResource( 9 )
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
@@ -483,5 +517,23 @@ custom_styles/normal = SubResource( 58 )
 toggle_mode = true
 group = ExtResource( 2 )
 [connection signal="toggled" from="CanvasLayer/HSplitContainer/MarginContainer2/MarginContainer/VBoxContainer/CheckButton" to="Sprite" method="_on_CheckButton_toggled"]
+[connection signal="pressed" from="CanvasLayer/HSplitContainer/MarginContainer/GridContainer/Normal" to="Sprite" method="_on_typeBtn_pressed" binds= [ 0 ]]
+[connection signal="pressed" from="CanvasLayer/HSplitContainer/MarginContainer/GridContainer/Fighting" to="Sprite" method="_on_typeBtn_pressed" binds= [ 1 ]]
+[connection signal="pressed" from="CanvasLayer/HSplitContainer/MarginContainer/GridContainer/Flying" to="Sprite" method="_on_typeBtn_pressed" binds= [ 2 ]]
+[connection signal="pressed" from="CanvasLayer/HSplitContainer/MarginContainer/GridContainer/Posion" to="Sprite" method="_on_typeBtn_pressed" binds= [ 3 ]]
+[connection signal="pressed" from="CanvasLayer/HSplitContainer/MarginContainer/GridContainer/Ground" to="Sprite" method="_on_typeBtn_pressed" binds= [ 4 ]]
+[connection signal="pressed" from="CanvasLayer/HSplitContainer/MarginContainer/GridContainer/Rock" to="Sprite" method="_on_typeBtn_pressed" binds= [ 5 ]]
+[connection signal="pressed" from="CanvasLayer/HSplitContainer/MarginContainer/GridContainer/Bug" to="Sprite" method="_on_typeBtn_pressed" binds= [ 6 ]]
+[connection signal="pressed" from="CanvasLayer/HSplitContainer/MarginContainer/GridContainer/Ghost" to="Sprite" method="_on_typeBtn_pressed" binds= [ 7 ]]
+[connection signal="pressed" from="CanvasLayer/HSplitContainer/MarginContainer/GridContainer/Steel" to="Sprite" method="_on_typeBtn_pressed" binds= [ 8 ]]
+[connection signal="pressed" from="CanvasLayer/HSplitContainer/MarginContainer/GridContainer/Fire" to="Sprite" method="_on_typeBtn_pressed" binds= [ 9 ]]
+[connection signal="pressed" from="CanvasLayer/HSplitContainer/MarginContainer/GridContainer/Water" to="Sprite" method="_on_typeBtn_pressed" binds= [ 10 ]]
+[connection signal="pressed" from="CanvasLayer/HSplitContainer/MarginContainer/GridContainer/Grass" to="Sprite" method="_on_typeBtn_pressed" binds= [ 11 ]]
+[connection signal="pressed" from="CanvasLayer/HSplitContainer/MarginContainer/GridContainer/Electric" to="Sprite" method="_on_typeBtn_pressed" binds= [ 12 ]]
+[connection signal="pressed" from="CanvasLayer/HSplitContainer/MarginContainer/GridContainer/Psychic" to="Sprite" method="_on_typeBtn_pressed" binds= [ 13 ]]
+[connection signal="pressed" from="CanvasLayer/HSplitContainer/MarginContainer/GridContainer/Ice" to="Sprite" method="_on_typeBtn_pressed" binds= [ 14 ]]
+[connection signal="pressed" from="CanvasLayer/HSplitContainer/MarginContainer/GridContainer/Dragon" to="Sprite" method="_on_typeBtn_pressed" binds= [ 15 ]]
+[connection signal="pressed" from="CanvasLayer/HSplitContainer/MarginContainer/GridContainer/Dark" to="Sprite" method="_on_typeBtn_pressed" binds= [ 16 ]]
+[connection signal="pressed" from="CanvasLayer/HSplitContainer/MarginContainer/GridContainer/Fairy" to="Sprite" method="_on_typeBtn_pressed" binds= [ 17 ]]
 
 [editable path="CanvasLayer/HSplitContainer/MarginContainer2/MarginContainer"]

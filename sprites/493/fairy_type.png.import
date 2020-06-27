@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/poison_type.png-3efd5cf6a4a37ef9f4a488bd8121a2db.stex"
+path="res://.import/fairy_type.png-4da0825970d90d12123441482f731a4c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/493/poison_type.png"
-dest_files=[ "res://.import/poison_type.png-3efd5cf6a4a37ef9f4a488bd8121a2db.stex" ]
+source_file="res://sprites/493/fairy_type.png"
+dest_files=[ "res://.import/fairy_type.png-4da0825970d90d12123441482f731a4c.stex" ]
 
 [params]
 
